@@ -6,15 +6,15 @@ export const Footer: React.FC = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="mb-6">
            <span className="text-2xl font-bold tracking-tighter text-white">
-            GAME<span className="text-brand-500">ZONE</span>
+            SNAKE<span className="text-brand-500">ZONE</span>
           </span>
         </div>
         <p className="text-zinc-600 text-sm mb-4">
-          © {new Date().getFullYear()} Mon Super Jeu Studio. Tous droits réservés.
+          © {new Date().getFullYear()} Snake Dev Studio. All rights reserved.
         </p>
         <div className="flex justify-center gap-6 text-sm text-zinc-500">
-          <a href="#" className="hover:text-white transition-colors">Politique de confidentialité</a>
-          <a href="#" className="hover:text-white transition-colors">Conditions d'utilisation</a>
+          <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+          <a href="#" className="hover:text-white transition-colors">Terms of Use</a>
           <a href="#" className="hover:text-white transition-colors">Support</a>
         </div>
       </div>

@@ -4,32 +4,30 @@ import { GameFeature } from '../types';
 const features: GameFeature[] = [
   {
     id: '1',
-    title: 'Gameplay Classique',
-    description: 'Les règles que tout le monde connait. Pas de chichis, juste toi et ton serpent qui grandit.',
+    title: 'Core Mechanics',
+    description: 'The classic gameplay you know, refined. Responsive controls and pixel-perfect collision detection.',
     icon: 'zap'
   },
   {
     id: '2',
-    title: 'Code Fait Maison',
-    description: 'Codé avec amour pour tourner parfaitement. Super léger, pas de lag, 100% fun.',
+    title: 'Native Performance',
+    description: 'Custom engine built for speed. Runs at locked 60 FPS on any hardware configuration.',
     icon: 'code'
   },
   {
     id: '3',
-    title: 'Portable',
-    description: 'Pas d\'installation reloue. Tu lances le .exe et tu joues direct, même sur le PC du lycée.',
+    title: 'Portable Binary',
+    description: 'Zero installation required. Single executable file that runs instantly from any directory.',
     icon: 'shield'
   },
   {
     id: '4',
-    title: 'Score',
-    description: 'Le but ? Battre tes potes. Fais la capture d\'écran de ton score et envoie-la.',
+    title: 'Competitive Scoring',
+    description: 'Local high-score tracking with instant replay capability. Challenge your limits.',
     icon: 'users'
   }
 ];
 
-// Simple SVG Icons component map to avoid external dependencies if needed, 
-// but sticking to standard SVG elements for maximum portability in this snippet.
 const IconMap: Record<string, React.ReactNode> = {
   zap: (
     <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -59,7 +57,7 @@ export const Features: React.FC = () => {
     <section id="features" className="py-20 px-6 bg-zinc-950">
       <div className="container mx-auto max-w-6xl">
         <div className="mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Pourquoi ce jeu ?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">Why Play?</h2>
           <div className="h-1 w-20 bg-brand-500 rounded-full"></div>
         </div>
 

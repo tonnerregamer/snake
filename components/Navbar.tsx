@@ -24,10 +24,10 @@ export const Navbar: React.FC = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Le Jeu</a>
-          <a href="#requirements" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Infos</a>
+          <a href="#features" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Features</a>
+          <a href="#requirements" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Specs</a>
           <a href="#download" className="px-5 py-2 bg-white text-zinc-950 text-sm font-bold rounded hover:bg-zinc-200 transition-colors">
-            Télécharger
+            Download
           </a>
         </div>
       </div>
