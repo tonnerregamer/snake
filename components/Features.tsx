@@ -1,5 +1,5 @@
 import React from 'react';
-import { GameFeature } from '../types';
+import { GameFeature } from '../types.ts';
 
 const features: GameFeature[] = [
   {

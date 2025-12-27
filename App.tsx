@@ -1,9 +1,9 @@
 import React from 'react';
-import { Hero } from './components/Hero';
-import { Features } from './components/Features';
-import { DownloadSection } from './components/DownloadSection';
-import { Footer } from './components/Footer';
-import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero.tsx';
+import { Features } from './components/Features.tsx';
+import { DownloadSection } from './components/DownloadSection.tsx';
+import { Footer } from './components/Footer.tsx';
+import { Navbar } from './components/Navbar.tsx';
 
 const App: React.FC = () => {
   return (

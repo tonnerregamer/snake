@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { DownloadStatus } from '../types';
+import { DownloadStatus } from '../types.ts';
 
 export const DownloadSection: React.FC = () => {
   const [status, setStatus] = useState<DownloadStatus>(DownloadStatus.IDLE);
