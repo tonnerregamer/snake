@@ -14,8 +14,8 @@ export const DownloadSection: React.FC = () => {
       setStatus(DownloadStatus.COMPLETED);
       // Create a fake download link action
       const element = document.createElement("a");
-      element.href = "./mon_snake.zip"; 
-      element.download = "mon_snake.zip";
+      element.href = "./snake.zip"; 
+      element.download = "snake.zip";
       document.body.appendChild(element);
       element.click(); 
       document.body.removeChild(element);
